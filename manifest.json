@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Word Meaning",
+    "version": "0.1.0",
+    "description": "Tap on any word in the page and get its definition",
+    "author": "Bettaibi Nidhal",
+    "browser_action": {
+        "default_icon": "images/icon32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        "images/*"
+    ],
+    "permissions": []
+}
