@@ -19,5 +19,4 @@ it  | Italian
 
 ##### look at the picture below for more details.
 
-<br>
 ![alt text](https://github.com/bettaibi/word-meaninig/blob/main/wordMeaning.png?raw=true)
